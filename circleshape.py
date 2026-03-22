@@ -15,6 +15,7 @@ class CircleShape(pygame.sprite.Sprite):
 
     def draw(self, screen):
         # must override
+        print("drawing base")
         pass
 
     def update(self, dt):
